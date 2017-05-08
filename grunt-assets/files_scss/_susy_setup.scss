@@ -1,0 +1,19 @@
+$susy: (
+        flow: ltr, // ltr | rtl
+        columns: 12, // The number of columns in grid
+        gutters: 0.20, // The size of a gutter in relation to a single column
+        math: fluid,
+        output: float,
+  //container: 1170px, // old size before 20%
+        container: 1280px,
+        last-flow: to,
+  //gutter-position: inside,
+  //column-width: 70px,
+        columns-width: false,
+);
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
