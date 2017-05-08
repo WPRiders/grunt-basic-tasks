@@ -22,7 +22,8 @@ You need to have installed NODE.js and the variable npm should be recognized in 
 You should install LibSass: http://sass-lang.com/libsass
 
 # Install
-open Terminal/CMD, go to your project where you copied the folders ( assets / grunt-assets ), go to folder grunt-assets and run "npm install".
-After it's done installing, type "grunt" in the console.
+open Terminal/CMD, go to your project where you have copied the folders ( assets / grunt-assets ).<br/>
+Go to folder "grunt-assets" and run "npm install". <br/>
+After it's done installing, type "grunt" in the console to run it.
 
 Will have more details explained in an article at the URL: http://www.wpriders.com/blog/
