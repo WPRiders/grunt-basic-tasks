@@ -1,0 +1,18 @@
+/*!
+Project: My Project Theme
+Author: Your name or ocmpany name
+URL: https://myproject-something-url
+*/
+
+// https://www.npmjs.com/package/compass-mixins
+// a list of mixins can be found here http://compass-style.org/index/mixins/, no idea if compass-mixins has all
+@import "node_modules/compass-mixins/lib/compass";
+
+// More info here: https://github.com/JohnAlbin/normalize-scss
+@import "node_modules/normalize-scss/sass/normalize";
+
+@include normalize();
+
+@import "mixins";
+@import "colors";
+@import "global";

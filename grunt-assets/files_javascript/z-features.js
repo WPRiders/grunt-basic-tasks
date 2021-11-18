@@ -1,8 +1,7 @@
 /**
- * Created by <awesome developer> on 19/04/17.
+ * Created by <Bitdefender> on 12/11/2021.
  */
+( function ( $ ) {
 
-(function ($) {  
-     
-   
-})(jQuery);
+
+} )( jQuery );

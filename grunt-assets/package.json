@@ -1,8 +1,9 @@
 {
   "name": "grunt-starter",
   "version": "1.0.0",
-  "description": "Susy with libSass and grunt",
+  "description": "Basic grunt setup",
   "main": "index.js",
+  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,16 +11,16 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-jshint": "~1.1.0",
-    "grunt-contrib-uglify": "~2.3.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0",
-    "grunt-concurrent": "^2.3.1",
-    "susy": "^2.2.12"
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-jshint": "~3.1.1",
+    "grunt-contrib-uglify": "~5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-dart-sass": "^2.0.1",
+    "sass": "^1.42.1"
   },
   "dependencies": {
-    "normalize-scss": "^6.0.0",
+    "normalize-scss": "^7.0.1",
     "compass-mixins": "^0.12.10"
   }
 }
